@@ -24,7 +24,7 @@ even <- seq(2, 100, by = 2)
 
 # Using the `all()` function and `%%` (modulo) operator, confirm that all of the
 # numbers in your `even` vector are even
-all(even %% 2)
+all(even %% 2 == 0)
 
 
 # Create a vector `phone_numbers` that contains the numbers 8, 6, 7, 5, 3, 0, 9
